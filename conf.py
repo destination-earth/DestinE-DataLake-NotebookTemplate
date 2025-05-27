@@ -6,12 +6,12 @@ sys.path.insert(0, os.path.abspath('_extensions'))
 # -- Project information ----------------------------------------------------
 project = "Mein Cookbook"
 author = "Dein Name / Team"
-copyright = "2024, Dein Name oder Organisation"
+copyright = "2024, Dein Name"
 
 # -- General configuration --------------------------------------------------
 extensions = [
-    "myst_nb",          # für Jupyter Notebooks
-    "sphinx_design",    # optional für schönere Layouts
+    "myst_nb",
+    "sphinx_design",
 ]
 
 templates_path = ["_templates"]
@@ -23,7 +23,7 @@ source_suffix = {
     ".ipynb": "myst-nb",
 }
 
-# -- MyST Parser Konfiguration (Markdown) -----------------------------------
+# -- MyST Parser config -----------------------------------------------------
 myst_enable_extensions = [
     "amsmath",
     "colon_fence",
@@ -32,17 +32,13 @@ myst_enable_extensions = [
     "html_image",
 ]
 
-# -- Jupyter Notebook Konfiguration -----------------------------------------
-nb_execution_mode = "off"  # Notebooks werden NICHT beim Bauen ausgeführt
+# -- Notebook config --------------------------------------------------------
+nb_execution_mode = "off"
 
 # -- HTML output ------------------------------------------------------------
 html_theme = "pydata_sphinx_theme"
-html_static_path = ["_static"]
-
-# -- Optional: Titelseite und Logo ------------------------------------------
 html_title = project
-# html_logo = "_static/logo.svg"
-# html_favicon = "_static/favicon.ico"
+html_static_path = ['_static'] if os.path.isdir('_static') else []
 
-# -- Hauptseite der Dokumentation -------------------------------------------
-master_doc = "index"
+# -- Root document ----------------------------------------------------------
+root_doc = "index"
