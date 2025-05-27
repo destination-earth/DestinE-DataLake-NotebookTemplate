@@ -10,7 +10,6 @@ copyright = "2024, Dein Name oder Organisation"
 
 # -- General configuration --------------------------------------------------
 extensions = [
-    "myst_parser",      # für Markdown
     "myst_nb",          # für Jupyter Notebooks
     "sphinx_design",    # optional für schönere Layouts
 ]
