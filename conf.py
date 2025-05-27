@@ -1,12 +1,14 @@
+# -- Project information -----------------------------------------------------
 project = 'My Example Cookbook'
+author = 'Submitted via Cookbook System'
 
+# -- General configuration ---------------------------------------------------
 extensions = [
-    "myst_nb",
-    "sphinx.ext.githubpages",
-    "sphinx_design",
+    "myst_parser",                # Wichtig für Markdown
+    "myst_nb",                    # Für Jupyter Notebooks
+    "sphinx.ext.githubpages",    # Für GitHub Pages Support
+    "sphinx_design",             # Für schöne Layout-Komponenten
 ]
-
-html_theme = 'pydata_sphinx_theme'
 
 source_suffix = {
     ".md": "markdown",
@@ -25,6 +27,15 @@ myst_enable_extensions = [
 
 nb_execution_mode = 'off'
 
+exclude_patterns = [
+    '_build',
+    'Thumbs.db',
+    '.DS_Store',
+]  
+
+# -- HTML output configuration -----------------------------------------------
+html_theme = 'pydata_sphinx_theme'
+
 html_theme_options = {
     "logo": {
         "text": "Cookbook",
@@ -34,11 +45,5 @@ html_theme_options = {
     "navigation_depth": 2,
     "collapse_navigation": False,
 }
-
-exclude_patterns = [
-    '_build',
-    'Thumbs.db',
-    '.DS_Store',
-]  
 
 html_static_path = ['_static']
