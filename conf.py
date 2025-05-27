@@ -10,7 +10,7 @@ copyright = "2024, Dein Name"
 
 # -- General configuration --------------------------------------------------
 extensions = [
-    "myst_nb",
+    "myst_parser",  
     "sphinx_design",
 ]
 
