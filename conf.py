@@ -4,7 +4,6 @@ author = 'Submitted via Cookbook System'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
-    "myst_parser",                # Wichtig für Markdown
     "myst_nb",                    # Für Jupyter Notebooks
     "sphinx.ext.githubpages",    # Für GitHub Pages Support
     "sphinx_design",             # Für schöne Layout-Komponenten
