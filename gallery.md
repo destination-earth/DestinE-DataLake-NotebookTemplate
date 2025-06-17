@@ -1,4 +1,4 @@
-# My Example Cookbook
+# My Example Cookbook Gallery
 
 ::::{grid} 2
 :gutter: 2
