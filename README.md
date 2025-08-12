@@ -1,6 +1,6 @@
-# Cookbook Template
+# Notebook Template
 
-This repository serves as a template for submitting cookbooks to the [DEDL Notebook Gallery](https://destination-earth.github.io/DestinE-DataLake-Gallery).
+This repository serves as a template for submitting notebooks to the [DEDL Notebook Gallery](https://destination-earth.github.io/DestinE-DataLake-Gallery).
 
 ## How to use
 
