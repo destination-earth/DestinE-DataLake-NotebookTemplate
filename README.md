@@ -7,18 +7,17 @@ This repository serves as a template for submitting notebooks to the [DEDL Noteb
 1. Clone this repository to your GitHub account:
 
    ```bash
-   git clone https://github.com/your-username/your-new-repo.git
+   git clone https://github.com/destination-earth/DestinE-DataLake-NotebookTemplate.git
    ```
 
    or simply use the **"Use this template"** button on GitHub.
 2. Add your Jupyter Notebooks to the `notebooks/` folder.
 3. Follow the example provided in `notebooks/template.ipynb`.
-   Pay special attention to the first Markdown cell, where metadata such as title, tags, thumbnail, etc. must be included using **YAML front matter**.
+   Pay special attention to the first Markdown cell, where metadata such as title, tags, thumbnail, etc. must be included using **YAML front matter**. Please note that every notebook has to include this fist markdown cell in the very beginning!
 4. Add a thumbnail image for each notebook, place it in the `img/` folder, and reference it in the notebook’s metadata.
 5. Enable GitHub Pages
    - Go to Settings → Pages.
-   - Ensure that Branch is set to gh-pages and the folder is set to (root).
-      If it is set to None, change it to gh-pages / (root) and click Save.
+   - Under Build and deployment, set Source to GitHub Actions.
 6. Enable Required GitHub Actions Permissions
    - Go to Settings → Actions → General.
    - Scroll down to the Workflow permissions section.
