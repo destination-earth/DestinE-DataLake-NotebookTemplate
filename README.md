@@ -23,7 +23,7 @@ This repository serves as a template for submitting notebooks to the [DEDL Noteb
    - Scroll down to the Workflow permissions section.
    - Select Read and write permissions.
    - Click Save if you made any changes. 
-7. Submit the link to your repository via the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Gallery/issues).
+7. Submit the link to your repository via the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Lab/issues/new/choose).
 
 ### Attention!
 
