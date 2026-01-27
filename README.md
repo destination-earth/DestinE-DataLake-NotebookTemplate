@@ -23,7 +23,7 @@ This repository serves as a template for submitting notebooks to the [DEDL Noteb
    - Scroll down to the Workflow permissions section.
    - Select Read and write permissions.
    - Click Save if you made any changes. 
-7. Submit the link to your repository via the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Lab/issues/new/choose).
+7. Submit the link to your repository via the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Gallery/issues). Use the issue template named "Add new Cookbook". You can specify different branches for the staging gallery and the production gallery. This allows you to preview changes on one branch before publishing a stable version from another branch.
 
 ### Attention!
 
